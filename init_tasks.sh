@@ -21,3 +21,11 @@ rm $GITPOD_REPO_ROOT/init_tasks.sh
 mkdir -p /workspace/data 
 #Storing MongoDB’s data inside /workspace ensures that it will get backed up 
 #and restored properly when you stop and restart a workspace, or share a snapshot.
+cd ..
+mkdir -p playground
+checkoutLocation: "/workspace/playground"
+workspaceLocation: "/workspace/playground"
+tasks:
+  - command: >
+      cd /workspace/playground
+      
