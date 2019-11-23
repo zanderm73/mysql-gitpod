@@ -23,9 +23,11 @@ mkdir -p /workspace/data
 #and restored properly when you stop and restart a workspace, or share a snapshot.
 cd ..
 mkdir -p playground
-checkoutLocation: "/workspace/playground"
-workspaceLocation: "/workspace/playground"
+checkoutLocation: "playground"
+workspaceLocation: "."
 tasks:
   - command: >
-      cd /workspace/playground
+      cd /workspace/playground 
       
+      
+ cd /workspace/playground 
