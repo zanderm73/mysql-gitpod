@@ -1,4 +1,4 @@
-#Try it: hhttps://gitpod.io/#https://github.com/MateusAlvarenga/mysql-gitpod
+#Try it: https://gitpod.io/#https://github.com/MateusAlvarenga/mysql-gitpod
 
 # Code Institute
 
